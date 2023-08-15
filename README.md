@@ -1,6 +1,13 @@
 # MQTT_OMRON_PLC_Datasheet
 Sysmac Studio MQTT
 
+Local (Apahce Mosquitto)
+
+
+![image](https://github.com/junxian428/MQTT_OMRON_PLC_Datasheet/assets/58724748/6a93ed49-1ca5-45ce-ba56-bfc0ac0c7854)
+
+Demo: https://youtu.be/KxJ7Hkh-7ks
+
 AWS Setup:
 
 Reference: http://www.osdes.com/oms/sample/navi/AWS1.html
