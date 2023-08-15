@@ -91,6 +91,25 @@ C:\ProgramData\Omron\Sysmac Studio\StartMenu\Sysmac Studio\Tools\TLSSettingTool>
 
 ![image](https://github.com/junxian428/MQTT_OMRON_PLC_Datasheet/assets/58724748/9808382f-2ab6-471f-9dfc-a3109855ce2d)
 
+Another Reference: 
+
+https://support.databoom.com/hc/en-us/articles/4412760922130-Omron-NX1
+
+ tlsconfig setSessionInfo /id 0 /key client-key.pem /cert client-cert.pem /ip:192.168.2.1 /f
+
+ ![image](https://github.com/junxian428/MQTT_OMRON_PLC_Datasheet/assets/58724748/7438f912-21bd-4e4d-a561-8ce444116654)
+
+![image](https://github.com/junxian428/MQTT_OMRON_PLC_Datasheet/assets/58724748/adc1c494-f05f-45aa-823a-4140b43f6af3)
+
+id value in the command depends on TLSSessionName in the previous prorgam
+
+id 0 -> TLSSessionName = TLSSession0
+
+Id 5 -> TLSSessionName = TLSSession5
+
+Once TLS configuration is completed you can proceed with data publish program
+
+
 
 Version Software update log: 
 
